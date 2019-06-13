@@ -1,8 +1,8 @@
 <?php
 
 try {
-    $db = new PDO('mysql:host=localhost;dbname=web_project', 'root', '');
+    $db = new PDO('mysql:host=devbdd.iutmetz.univ-lorraine.fr;dbname=franco337u_web_project', 'franco337u_appli', '31804052');
 } catch (PDOException $e) {
-    print "Erreur :" . $e->getMessage() . "<br />";
+    print "Error : " . $e->getMessage() . "<br />";
     die();
 }
